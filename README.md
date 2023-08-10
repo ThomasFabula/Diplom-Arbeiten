@@ -1,7 +1,7 @@
 # Diplom-Arbeiten
-Betreute Diplom-Arbeiten, MEMS, Mikromechanik, FEM-Modellierung &amp; Simulation, CFD-Strömungsberechnungen
+Betreute Diplom-Arbeiten: MEMS, Mikromechanik, FEM-Modellierung &amp; Simulation, CFD-Strömungsberechnungen
 
-## Mikromeachik & MEMS
+## Mikromechanik & MEMS
 
 ### Dynamische FEM Simulationen
 - Diplomand: Andreas Schroth
