@@ -31,8 +31,7 @@ Betreute Diplom-Arbeiten: MEMS, Mikromechanik, FEM-Modellierung &amp; Simulation
 - Ort: VS-Villingen, HSG-IMIT
 - Jahr: 1993
 
-## CFD-Strömungssimulation
-- Berechnungen von Strömungsproblemen
+## CFD-Berechnungen von Strömungsproblemen
 - Diplomand: Dirk Robeling
 - Titel: Finite-Elemente-Modellierung thermischer Um- und Durchströmungsprobleme
 - Diplomarbeit: Universität Dortmund, Fachbereich Chemietechnik -- https://www.tu-dortmund.de/
@@ -40,4 +39,5 @@ Betreute Diplom-Arbeiten: MEMS, Mikromechanik, FEM-Modellierung &amp; Simulation
 - Jahr: 1995
 
 ## Further information
-https://tfconsult.com/betreute-akademische-arbeiten/
+- https://tfconsult.com/betreute-akademische-arbeiten/
+- https://www.hahn-schickard.de/
