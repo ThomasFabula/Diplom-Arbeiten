@@ -1,5 +1,8 @@
 # Diplom-Arbeiten
-Betreute Diplom-Arbeiten: MEMS, Mikromechanik, FEM-Modellierung &amp; Simulation, CFD-Strömungsberechnungen, Fluid dynamics
+Betreute Diplom-Arbeiten: 
+- MEMS, Mikromechanik, FEM
+- numerical Modeling &amp; Simulation,
+- numerische Strömungsberechnungen, Computational Fluid Dynamics (CFD) 
 
 ## Mikrosystemtechnik & MEMS
 
