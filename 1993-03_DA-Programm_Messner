@@ -1,0 +1,53 @@
+Diplomarbeit
+
+Titel: "Finite-Elemente Berechnung der Fluid-Struktur-Wechselwirkung bei einem resonanten Strömungssensor"
+
+Diplomand:
+- Stephan Messner
+
+Uni: 
+- Universität Stuttgart, Fakultät Konstruktions- und Fertigungstechnik
+
+Betreuer Uni. Stuttgart: 
+- Dr. Ch.Woernle, Institut A für Mechanik
+
+Außerschulische Betreuer: 
+- Dipl.-Phys. Th.Fabula, 
+- Dipl.-Phys. N.Hey, 
+Institut für Mikro- und Informationstechnik, Villingen-Schwenningen
+
+Ausgangssituation:
+Im Rahmen des BMFT-Verbundprojektes FASENS wurden resonante Silizium-Balkenstrukturen als Kraftsensoren mit 
+elektrothermischer Anregung und resistiver Abtastung mit NiCr-Dehnmeßstreifen hergestellt. In Kooperation mit 
+der Fa. GMS mbH, St.Georgen (Projektleiter: Dr. H. Bartuch) soll die Eignung der Strukturen als Strömungssensor 
+weiter untersucht werden. Mit numerischen Berechnungsmethoden (FEM) sollen die Sensoreigenschaften, insbesondere 
+die thermische Fluid-Struktur-Wechselwirkung und das dynamische Verhalten untersucht, sowie die Sensitivität 
+optimiert werden. Gleichzeitig hierzu findet eine FH-Diplomarbeit mit dem Ziel der Entwicklung einer 
+Auswerteelektronik mit Anregungsschaltung (Betreuer: Dr. H. Bartuch) statt.
+
+Fachpraktika:
+Herr Messner absolviert vor seiner Diplomarbeit 3 Praktika von einer Gesamtdauer von 8 Wochen am HSG-IMIT :
+5 Wochen: FEM-Praktikum, Abt. T1 (KW 9 - KW 13),
+Thema:	FE-Berechnung eines Strömungssensors mit ANSYS
+1 Woche:	Meßtechnik, Abt. T3 (KW 14)
+Thema:	Optische und elektrische Vermessung eines resonanten Strömungssensors
+(Bestimmung der Resonatorkenngrößen Frequenz, Amplitude, Dämpfung; Charakterisierung der Frequenzempfindlichkeit bei Fluidumströmung,
+Sensorkennlinie)
+2 Wochen:	AVT -  Aufbau- und Vernindungstechnik, Abt. T5  (KW 15 - KW 16),
+Thema:Aufbau- und Kontaktierungstechnik für resonante Sensoren (Kleben, Drahtbonden)
+
+Arbeitsprogramm:	(Zeitdauer: ca. 3 - 4 Monate)
+-	Einfachbalkenstruktur aus Silizium mit elektrothermischer Anregung
+-	frequenzanaloges Sensorprinzip des Strömungssensors
+-	theoretische Überprüfung der Eignung als resonanter Strömungssensor (analytische Abschätzung der zu erwartenden Temperatur- und Frequenzänderungen)
+-	Programmkopplung von FIDAP und ANSYS
+-	Berechnung der Eigenfrequenzen und -schwingungsformen (Modalanalyse) unter Temperaturlasten in Abhängigkeit verschiedener Materialbeschreibungen
+(isotrop/anisotrop) und Geometriemodellierungen (2D/3D)
+-	Berechnung der Eigenfrequenzänderung infolge der Abkühlung durch das vorbeiströmende Fluid (Sensorkennlinie)
+-	Variation von Geometrie- und Materialparametern zwecks Optimierung der Empfindlichkeit der Sensorkennlinie
+-	laminare Berechnung (optional: turbulente Berechnung)
+-	Einfluß der Randbedingungen des FE-Modells und Vergleich mit experimentellen Daten (Messungen an Strömungsrohr)
+
+
+Th.Fabula
+HSG-IMIT, 03/1993
