@@ -4,7 +4,7 @@ Betreute Diplom-Arbeiten:
 - FEM: Finite Element Modeling (numerical Modeling & Simulation),
 - CFD: Computational Fluid Dynamics (numerische Strömungsberechnungen 
 
-## Mikrosystemtechnik & MEMS
+## Mikrosystemtechnik (MST) & MEMS
 
 ### Dynamische FEM Simulationen
 - Diplomand: Andreas Schroth
