@@ -9,7 +9,7 @@ Betreute Diplom-Arbeiten:
 ### Dynamische FEM Simulationen
 - Diplomand: Andreas Schroth
 - Titel: Modellierung mikromechanischer Membranen
-- Diplomarbeit TU Chemnitz, Fachbereich Elektrotechnik & HSG-IMIT
+- Diplomarbeit: TU Chemnitz, Fachbereich Elektrotechnik & HSG-IMIT
 - https://www.tu-chemnitz.de/
 - Ort: VS-Villingen
 - Jahr: 1992
