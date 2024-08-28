@@ -1,0 +1,59 @@
+! Datei:            AUSL.MAP
+! Druckmembran:     lastabhaengige Auslenkung und Grundfrequenz
+! letzte Aenderung: 21.01.1994
+! von:              Th.Fabula
+! Quelle/Literatur: DA Schroth, Pfeifer/Werthschuetzki, Timoshenko
+
+cnst    := 1.654;
+! reines Silizium(110)
+! E_si    := 1.689*10^11;
+! rho_si  := 2329;
+! nue_si  := 0.063;
+! Mittelwert für Si+ZnO
+E_si    := 1.61*10^11;
+rho_si  := 2932;
+nue_si  := 0.1166;
+
+qnue    := nue_si*nue_si;
+! E_red   := E_si/(1 - qnue);
+E_red   := 1.65133*10^11;
+
+l       := 9.2*10^(-3);
+t_si    := 50*10^(-6);
+t_zno   := 11*10^(-6);
+f_gem   := 8317;
+p       := 0.010*10^5;
+
+!-------------------------------------------------
+! t_ges   := t_si;
+t_ges   := t_si + t_zno;
+lquad   := l*l;
+a4      := lquad*lquad;
+h3      := t_ges*t_ges*t_ges;
+h4      := h3*t_ges;
+
+D       := E_red*h3/12;
+p0      := t_ges*D/a4;
+
+! ----  Lineare Auslenkung: Gleichung 1
+d1a     := 0.00126*p*a4/D/10^(-6);
+d1b     := 0.00164*p*a4/D/10^(-6);
+
+! ----  quadratische Auslenkung: Gleichung 2
+nl      := 1 - 0.00024*p/p0;
+d       := 0.00136*a4*p*nl/D;
+d2      := d*10^6;
+
+! ----  kubische Auslenkung: Gleichung 3
+alpha1  := 50.3815;
+alpha2  := 1.5816;
+ka      := (alpha1/(36*alpha2))^3;
+kb      := alpha1/(12*alpha2);
+K       := 16*E_red*alpha2*h4/a4;
+pK      := 0.5*p/K;
+h       := sqrt(ka + (pK)^2);
+hh      := (pK+h)^(1/3);
+d3      := t_ges*(hh - kb/(3*hh))*10^6;
+
+! ----  Resonanzfrequenz
+f_0     := cnst*t_ges/lquad*sqrt(E_red/rho_si);
