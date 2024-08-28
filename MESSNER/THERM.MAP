@@ -1,0 +1,41 @@
+! Temperaturabhängigkeit der Resonanzfrequenz beim resonanten Strömungssensor
+! Materialeigenschaften und Geometrieparameter (SI-Einheiten)
+
+E_si     := 1.689*10^11;
+E_sio2   := 0.7*10^11;
+E_al2o3  := 3.1*10^11;
+
+alpha_si    := 2.33*10^(-6);
+alpha_sio2  := 0.600*10^(-6);
+alpha_al2o3 := 6.30*10^(-6);
+
+rho_si    := 2329;
+rho_sio2  := 2200;
+rho_al2o3 := 3900;
+
+nue_si    := 0.063;
+nue_sio2  := 0.17;
+nue_al2o3 := 0.24;
+
+l       := 10*10^(-3);
+t_si    := 50*10^(-6);
+t_sio2  := 1.5*10^(-6);
+Temp    := 0;
+sigma_0 := -15.22*10^6;
+
+
+qnue    := nue_si*nue_si;
+E_red   := E_si/(1 - qnue);
+eps_0   := sigma_0/E_red;
+t_ges   := t_si + t_sio2;
+tquad   := t_ges*t_ges;
+lquad   := l*l;
+
+eps     := (alpha_si - alpha_sio2)*Temp;
+diffz   := 0.295*lquad/tquad;
+eps_g   := eps_0 - eps;
+
+f_0     := 1.028*t_ges/lquad*sqrt(E_red/rho_si);
+f_T     := f_0*sqrt(1 + diffz*eps);
+f_S     := f_0*sqrt(1 + diffz*eps_g);
+f_A     := f_0*sqrt(abs(1 + diffz*eps_g));
