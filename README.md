@@ -1,6 +1,6 @@
 # Diplom-Arbeiten
 Betreute Diplom-Arbeiten (supported university diploma theses): 
-- MEMS, Mikromechanik, silicon Microsystems
+- MEMS: Mikromechanik, Silicon Microsystems
 - FEM: Finite Element Modeling (numerical Modeling & Simulation),
 - CFD: Computational Fluid Dynamics (numerische Strömungsberechnungen 
 
