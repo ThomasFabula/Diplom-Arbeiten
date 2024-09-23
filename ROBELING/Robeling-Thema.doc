@@ -1,0 +1,46 @@
+Diplomarbeit bei der TCN GmbH:
+
+
+Arbeitstitel: "Finite-Elemente-Modellierung thermischer Um- und Durchströmungsprobleme"
+
+Diplomand: Dirk Robeling, Uni Dortmund, Fachbereich Chemietechnik
+
+Ausgangssituation:
+Die Problematik der Fluidkühlung thermisch belasteter Bauelemente findet zahlreiche technische Anwendungen, z.B. bei 
+elektronischen Schaltschränken, Leiterplatten-/Chipkühlung, (Stichwort: electronic cooling), Auspuff- und Abgasanlagen. 
+Zur Ermittlung der Temperaturverteilung im Bauelement sind die Wärmeübergangszahlen an den Bauelementberandungen erforderlich. 
+Da diese in der Regel nicht genau bekannt sind und von den Umströmungsbedingungen abhängen, ist eine thermisch-gekoppelte 
+Fluid-Struktur-Berechnung unerläßlich. 
+Auf dem Markt existieren kommerzielle Programmpakete (z.B. FLOTHERM, ICEPAK) zur Bearbeitung solcher Problemstellungen, 
+die jedoch in den Modelliermöglichkeiten stark eingeschränkt sind. Sofern diese Programme auf der Finite-Differenzen-Methode 
+basieren (FLOTHERM), sind nur einfache Geometrien berechenbar. Hinzu kommt der hohe Preis dieser Werkzeuge, so daß sich eine 
+Anschaffung in der Regel nur bei immer wiederkehrenden, gleichen Aufgabenstellungen lohnt. Im Gegensatz dazu bieten
+kommerzielle FE-Programmsysteme der Strukturmechanik und Strömungsmechanik (CFD) die Möglichkeit eines weitaus flexibleren 
+Einsatzes. Daher sollen im Rahmen dieser Arbeit unter Verwendung der ́general-purposé Programme ANSYS und FLOTRAN für
+thermische-gekoppelte Problemstellungen FE-Modelle entwickelt und berechnet werden, die eine Behandlung vergleichbar zu 
+den obigen ́special-purposé Programmen ermöglichen.
+Die TCN GmbH stellt die HW- (IBM RS/6000, PC 486) und SW-Infrastruktur (ANSYS 5.1, Motif) zur Verfügung  und betreut 
+Herrn Robeling bei problem- und werkzeugspezifischen Fragestellungen. Die wissenschaftliche Betreuung seitens der 
+Universität Dortmund erfolgt durch Herrn Prof. K. Strauß und Herrn Dipl.-Ing. Th. Arend vom Lehrstruhl für 
+Energieprozeßtechnik und Strömungsmechanik. 
+
+Arbeitsprogramm:
+- Zusammenstellung der erforderlichen Fachliteratur (Uni-Bibliothek, TCN Infos)
+- Sichtung und Einarbeitung in die Literatur (numerische CFD, thermische Fluid-Struktur-Wechselwirkung)
+- Einarbeitung in ANSYS und FLOTRAN (neue Oberfläche, Programmhandling /-kopplung)
+- Verifikation der numerischen CFD-Rechnungen durch Vergleich mit analytischen Lösungen (2D-Problem)
+- Vergleich der numerischen CFD-Rechnungen mit experimentellen Ergebnissen 
+- Entwicklung von FE-Modellen und Berechnungsstrategien für thermisch-gekoppelte Fluidberechnungen
+- Berechnung thermisch-gekoppelter Problemstellungen (3D-Geometrie) mit ANSYS und FLOTRAN:
+	1.) Strömungsfeld (Geschwindigkeitsverteilung im Fluid)
+	2.) Temperaturverteilung (Fluid und Struktur)
+	3.) thermisch-induzierte Spannungen im Bauelement
+- Ermittlung des Einflussses der thermischen Randbedingungen (Wärmequellen, -senken)
+- laminare/turbulente Strömungsberechnung und Variation der turbulenten Eingangsbedingungen
+- Variation der Bauelementgeometrien und -anordnungen 
+(Laufzeit: ca. 6 Monate, Beginn der Arbeit im Dezember 94)
+
+Außerschulische Betreuer:
+Dr.-Ing. A. Bakic, Tel.: 0231-975996-16
+Dr. rer. nat. Th. Fabula, Tel: 0231-975096-29
+TCN CAE-Technologien + Systeme GmbH, D-44227 Dortmund, Otto-Hahn-Str. 20
