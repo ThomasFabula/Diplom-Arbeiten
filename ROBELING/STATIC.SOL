@@ -1,0 +1,21 @@
+!  Datei: STATIC.SOL
+
+bar=1e5                  ! 1 Bar
+DRUK=0.5*bar
+
+/solu                 
+antype,static
+nsel,z,dick              ! nur bei 3D-MOdell
+sf,all,pres,druk
+nall
+nlgeom,on
+sstif,on
+! outpr,all,1              ! list all solution items
+save
+solv
+fini
+
+/post1
+set,list
+plns,uz
+prdi
