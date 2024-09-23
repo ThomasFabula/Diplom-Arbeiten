@@ -1,0 +1,12 @@
+/COM  Datei: SITHERM.K0
+
+tarb=320     ! Temperatur in Kelvin
+kan,0
+kay,6,1
+kay,8,1
+iter,-10,,10
+tref,298
+toffs,0
+tunif,tarb
+ktemp,0
+afwr
