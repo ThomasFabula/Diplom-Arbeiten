@@ -1,0 +1,303 @@
+! Grobmodell fuer Schutzkappenumstroemung
+! Stand                  : 17. Januar 1995
+! Kappenvariante         : Klappen
+! Lastfall               : 3
+! Sonstiges              : Anstroemung parallel zum Chip
+! Filename Grobmodell    : sgrob2.ans
+! Filename Feinmodell    : sfein2.ans
+! Filename Ethermmodell  : etherm2.ans
+! Filename Alphazahl     : walfa2.mac
+
+! Alle Masse in mm !!!!!!!!!!
+fini
+/clear
+/filnam,sgrob2
+/prep7
+et,1,142
+
+! Parameter 
+
+rr=52/2    ! Rohrradius
+rl=300     ! Rohrlaenge
+sr=3.5       ! Sensorkappenradius
+st=rr      ! Einstecktiefe Sensor
+ausr=sr/2  ! Ausrundungsradius Sensorkopf
+drp=7.7    ! Position Drahtgestrick vom Sensorende
+vinf=24000 ! Anstroemgeschwindigkeit
+ 
+cylinder,0,sr-ausr,0,st,0,90
+cylinder,0,sr-ausr,0,st,90,180
+cylinder,sr-ausr,sr,0,st,0,90
+cylinder,sr-ausr,sr,0,st,90,180
+
+wpoff,sr/2,,st
+wprot,0,0,90
+wprot,0,90
+pcircle,0,ausr,90,180
+nummrg,all
+vdrag,23,,,,,,23,35
+vdrag,2,7,,,,,44
+nummrg,all
+wpcs,1,0
+wpof,0,0,rr
+wprot,,,90
+cylinder,0,rr,-rl,rl,0,90
+cylinder,0,rr,-rl,rl,90,180
+
+
+nummrg,all
+allsel
+btol,1e-5
+vovl,all
+vdel,11,12
+vdel,15,16
+kwplan,1,21,19,8
+cylinder,0,sr/2,0,rr,0,90
+cylinder,0,sr/2,0,rr,90,180
+nummrg,all,1e-5
+vsel,s,,,1,2
+vsel,a,,,20
+vovl,all
+vsel,s,,,4,10,6
+vdel,all,,,1
+!
+wpcs,1,0
+wpof,0,0,st
+cone,sr,sr*2.5,0,st,0,90
+cone,sr,sr*2.5,0,st,90,180
+vsel,s,loc,z,25,100
+btol,1e-5
+vovl,all
+
+
+vdel,21,22,,,1
+asel,s,,,93
+asel,a,,,97,99
+acca,all
+lsel,s,,,107,112,5
+lsel,a,,,116,118,2
+lcca,all
+lsel,s,,,115,117,2
+lsel,a,,,68
+lsel,a,,,106
+lcca,all
+alls,belo,volu
+allsel
+nummrg,all
+
+vsel,s,loc,z,0,26
+asel,s,,,53
+asel,a,,,55,57
+acca,all
+lsel,s,,,64,67,3
+lsel,a,,,15,30,15
+lcca,all
+lsel,s,,,59,62,3 
+lsel,a,,,65,66  
+lcca,all
+lsel,all
+allsel
+nummrg,all
+!
+!Volumen Sensor
+!
+save
+vsel,s,,,17,18
+vsel,a,,,12,20,8
+vsel,a,,,4
+vsel,a,,,13,15
+alls,belo,volu
+lesi,9,,,16
+lesi,48,,,8 
+lesi,19,,,2 ! grobes Netz
+lesi,24,,,4,2 ! feines Netz
+lesi,26,,,4,2 ! feines Netz
+lesi,36,,,4,2 ! feines Netz
+lesi,19,,,4,2 ! feines Netz
+lesi,21,,,4,2 ! feines Netz
+lesi,33,,,4,2 ! feines Netz
+
+esiz,3
+vmes,all
+
+alls
+esiz,10
+! 
+! Netzverdichtung zum Sensor hin
+!
+lesi,64,,,20,.01
+lesi,67,,,20,100
+lesi,116,,,20,0.010
+lesi,118,,,20,0.010
+lesi,40,,,56,-0.2
+
+vsel,s,,,10,16,6
+vsel,a,,,23,24
+alls,belo,volu
+lesi,97,,,6  ! grobes Netz
+lesi,97,,,16,8  ! feines Netz
+lesi,73,,,16,8  ! feines Netz
+lesi,75,,,16,8  ! feines Netz
+lesi,76,,,16,8  ! feines Netz
+lesi,84,,,16,8  ! feines Netz
+lesi,89,,,16,8  ! feines Netz
+lesi,114,,,16,8  ! feines Netz
+
+vmes,all
+
+alls
+lesi,65,,,20,.01
+lesi,66,,,20,100
+lesi,23,,,16
+alls
+vmes,all
+
+!boundary conditions
+
+!1. Sensorwand
+vsel,s,,,17,18
+vsel,a,,,12,20,8
+vsel,a,,,15
+vsel,a,,,4
+alls,belo,volu
+asel,s,,,53,55,2
+asel,a,,,78,85,7
+asel,a,,,3,19,16
+lsla
+nsla,s,1
+esln
+eslv,r,1
+nsle
+
+emod,all,mat,2
+
+!
+
+!2. Drahtgestrick
+!
+vsel,s,,,13,14
+vsel,a,,,17,18
+alls,belo,volu
+nsel,r,loc,z,0,rr-drp
+esln,s,1
+emod,all,mat,2
+!
+!3. Chip
+!
+vsel,s,,,13,14
+alls,belo,volu
+nsel,r,loc,y,0
+esln
+nsle
+emod,all,mat,2
+
+!4. Symmetriebedingung
+alls
+vsymm,y,all
+alls
+nummrg,all
+!
+numcmp,node
+numcmp,elem
+
+!
+! Seitliche Oeffnungen (Klappen)
+csys,1
+nsel,s,loc,y,40,60
+nsel,a,loc,y,100,120
+nsel,a,loc,y,160,180
+nsel,a,loc,y,220,240
+nsel,a,loc,y,280,300
+nsel,a,loc,y,340,360
+
+nsel,r,loc,x,2.9,3.5
+
+nsel,r,loc,z,21.4,25.4
+
+esln,s
+esel,r,mat,,2
+
+emod,all,mat,1
+emod,all,real,2
+
+flv=0.5   ! Flaechenverhaeltnis fuer echte Klappe 
+zeta=0.5*1.3*(1-flv)+0.5*(1/flv-1)**2  ! Druckverlustbeiwert
+!                                      ! Fuer Gitter nach Idelchik
+k=zeta/0.5                             ! zeta/Laengeneinheit
+r,2,1,,k
+
+csys,0
+save
+!5. Einlass
+nsel,s,loc,x,-rl
+d,all,vx,vinf 
+d,all,vy
+d,all,vz
+
+!6. Auslass
+nsel,s,loc,x,rl
+d,all,pres
+! Fixe Wand am Auspuffohr
+alls
+nsel,s,ext
+nsel,u,d,vy
+nsel,u,d,pres
+lsel,s,,,25,51,26
+lsel,a,,,35,52,17
+lsel,a,,,65,66
+lsel,a,,,116,118,2
+lsel,a,,,1,11,10
+lsel,a,,,19
+lsel,a,,,33
+lsel,a,,,95
+lsel,a,,,103
+lsel,a,,,109
+lsel,a,,,113
+lsel,a,,,142,144,2
+lsel,a,160,161
+nsll,a,1
+d,all,vx
+d,all,vy
+d,all,vz
+alls
+
+! Temperatur 
+alls
+d,all,temp,640
+alls 
+ic,all,temp,640
+
+! Initial Conditions fuer Luft-Knoten ausserhalb des Sensors
+nsel,s,loc,z,0,26
+csys,1
+nsel,s,loc,x,0,3.6
+cm,Sensor,node
+alls
+csys
+esel,s,mat,,2
+nsle,u,,1
+cmsel,u,Sensor
+ic,all,vx,vinf         ! Initial Condition : Alle Luft-Knoten vx=vinf
+fini
+
+/solu 
+flda,solu,flow,1
+FLDA,SOLU,TURB,1
+FLDA,ITER,EXEC,50,  
+FLDA,ITER,CHEC,1,   
+FLDA,PROT,DENS,AIR-MM   
+FLDA,PROT,VISC,AIR-MM   
+FLDA,PROT,COND,AIR-MM   
+FLDA,PROT,SPHT,AIR-MM   
+FLDA,VARY,VISC,1
+FLDA,VARY,DENS,1
+FLDA,TEMP,NOMI,640,  
+FLDA,TEMP,TTOT,20,  
+FLDA,TEMP,BULK,640,  
+TOFFSET,273,
+
+alls
+! save
+! solve
+fini
+
