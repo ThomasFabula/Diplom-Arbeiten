@@ -2,7 +2,8 @@ Diplomarbeit bei der TCN CAE-Technologien+Systeme GmbH
 
 Arbeitstitel: "Finite-Elemente-Modellierung thermischer Um- und Durchströmungsprobleme"
 
-Diplomand: Dirk Robeling, Uni Dortmund, Fachbereich Chemietechnik
+Diplomand: Dirk Robeling 
+Uni Dortmund: Fachbereich Chemietechnik
 
 Ausgangssituation:
 Die Problematik der Fluidkühlung thermisch belasteter Bauelemente findet zahlreiche technische Anwendungen, z.B. bei 
@@ -15,9 +16,9 @@ die jedoch in den Modelliermöglichkeiten stark eingeschränkt sind. Sofern dies
 basieren (FLOTHERM), sind nur einfache Geometrien berechenbar. Hinzu kommt der hohe Preis dieser Werkzeuge, so daß sich eine 
 Anschaffung in der Regel nur bei immer wiederkehrenden, gleichen Aufgabenstellungen lohnt. Im Gegensatz dazu bieten
 kommerzielle FE-Programmsysteme der Strukturmechanik und Strömungsmechanik (CFD) die Möglichkeit eines weitaus flexibleren 
-Einsatzes. Daher sollen im Rahmen dieser Arbeit unter Verwendung der ́general-purposé Programme ANSYS und FLOTRAN für
+Einsatzes. Daher sollen im Rahmen dieser Arbeit unter Verwendung der ́"general-purpose" Programme ANSYS und FLOTRAN für
 thermische-gekoppelte Problemstellungen FE-Modelle entwickelt und berechnet werden, die eine Behandlung vergleichbar zu 
-den obigen ́special-purposé Programmen ermöglichen.
+den obigen ́"special-purpose" Programmen ermöglichen.
 Die TCN GmbH stellt die HW- (IBM RS/6000, PC 486) und SW-Infrastruktur (ANSYS 5.1, Motif) zur Verfügung  und betreut 
 Herrn Robeling bei problem- und werkzeugspezifischen Fragestellungen. Die wissenschaftliche Betreuung seitens der 
 Universität Dortmund erfolgt durch Herrn Prof. K. Strauß und Herrn Dipl.-Ing. Th. Arend vom Lehrstruhl für 
@@ -44,5 +45,5 @@ Dr.-Ing. A. Bakic, Tel.: 0231-975996-16
 Dr. rer. nat. Th. Fabula, Tel: 0231-975096-29
 
 TCN CAE-Technologien + Systeme GmbH 
-D-44227 Dortmund,
+D-44227 Dortmund
 Otto-Hahn-Str. 20
