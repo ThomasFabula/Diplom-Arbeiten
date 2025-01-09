@@ -1,0 +1,38 @@
+Modellierung von Strömungssensoren:
+
+Besprechung mit Herrn Dr. Götz,  Fa. Bosch, 
+Ort: Gerlingen-Schillerhöhe, Abt. ZWP 
+Datum: 10.03.1993
+
+Dr. Götz hat mit FIDAP Strömungssimulationen und mit PERMAS Strukturberechnungen an einem Luftmengenmesser 
+durchgeführt (interne Bosch-Entwicklung). Der Aufbau besteht aus freigeätzten Si-Membranen (Abm. ca. 10 mm) 
+mit eindiffundierten Heizelementen (Widerstände). Die Rechnungen haben gezeigt, daß eine merkliche 
+Sensorempfindlichkeit, d.h. ins Fluid ausgekoppelte Wämremenge, nur erreicht wird, falls die Heizleistung 
+entsprechend groß und die Strukturen sehr dünn sind (Dicke: 0.5 - 2 μm). Als Materialien wurden Si, SiO2, Si3N4 
+untersucht, wobei Nitrid am besten geeignet ist.
+
+FEM-Modellierungstips für FIDAP (resonanter Strömungssensor):
+
+- laminare Berechnungen für Re < 1000, Festlegung von Re durch kleinste Struktur-abmessungen (Chipabmessung, die das
+  Fluid sieht (Chipdicke), Strömungsrohrdurchmesser)
+- Vernachlässigung der Temperaturabhängigkeit der Dichte des Fluids
+- bei kleinen Geschwindigkeiten ist das Temperaturfeld stationär, es treten keine 3D-Effekte auf (2D-Modellierung), 
+  keine Turbulenzen
+- k/e-Turbulenzmodell ist für Re > 104 gut geeignet
+- Vorlaufstrecke >> Sensorlänge, -breite
+- Turbulenzberechnungen sind sehr aufwendig und zeitintensiv
+- theoretischer Aspekt: bei genügend feiner Vernetzung kann jedes Problem laminar berechnet werden, auch Turbulenzeffekte
+- Rechenaufwand laminar: Freiheitsgrade VX, VY, T (, p) = 3 DOFs (Zeit: t)
+- Rechenaufwand turbulent: Freiheitsgrade VX, VY, T, k, e = 5 DOFs => Tges = 4-5*t
+- FIDAP: besitzt ein analytisches Wandmodell, bei dem die Strömung besser beschrieben wird, als der Wärmefluß
+- Strömungssensor: Wärmeaustausch über Luft (mind10 %) und Festkörper (Leitung)
+- Materialkenndaten (Wärmeübergangszahlen): VDI-Wärmeatlas
+  (Wärmeübergang: Si-Membran <-> Luft = 300 W/m2K bei v = 10 m/s)
+
+- Optimierung des Strömungssensors:
+  a.) Wärmequelle sollte in Sensormitte liegen (kaum Wärmleitung über Si-Bulkbereich)
+  b.) möglichst dünner Balken, sodaß Wärmeabgabe an das Fluid maximiert wird
+
+- Beurteilung der FE-Netzqualität: die Temperatur- und Druckgradienten des Fluids sollten senkrecht zur Struktur 
+  möglichst linear verlaufen, d.h. das Netz muß am Fluid-Strktur Übergangsbereich möglichst fein sein
+
