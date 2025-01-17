@@ -30,6 +30,14 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: VS-Villingen
 - Jahr: 1992
 
+## Thermally driven micromechanical bridge resonator
+- Diplomand: Christian Burrer (in Kooperation mit Bosch) 
+- Titel: siehe oben 
+- Diplomarbeit: Universität Barcelona
+- https://www.imb-cnm.csic.es/en
+- Ort: Barcelona
+- Jahr: 1993
+
 ### Numerische Berechnungen eines MEMS-Strömungssensors
 - Diplomand: Stephan Messner
 - Titel: Finite-Elemente Berechnung der Fluid-Struktur-Wechselwirkung bei einem mikromechanischen Strömungssensor
