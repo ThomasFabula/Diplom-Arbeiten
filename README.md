@@ -30,7 +30,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: VS-Villingen
 - Jahr: 1992
 
-## Thermally driven micromechanical bridge resonator
+### Thermally driven micromechanical bridge resonator
 - Diplomand: Christian Burrer (in Cooperation with Bosch) 
 - Titel: Thermally driven micromechanical bridge resonator 
 - Diplomarbeit: Universität Barcelona
