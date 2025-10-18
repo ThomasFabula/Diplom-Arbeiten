@@ -57,5 +57,6 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 ## Further information
 - https://tfconsult.com/betreute-akademische-arbeiten/
 - https://www.hahn-schickard.de/
+- https://www.uni-bonn.de/
 
 ## to be continued ...
