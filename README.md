@@ -3,6 +3,8 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - MEMS: Mikromechanik, Micro-Electro-Mechanical Microsystems (silicon)
 - FEM: Finite Element Modeling (numerical Modeling & Simulation)
 - CFD: Computational Fluid Dynamics (numerische Strömungsberechnungen)
+- Business: Projekt-Management, TH Esslingen
+- Sport: Sport Hochschule, Köln
 
 ## Mikrosystemtechnik (MST) & MEMS
 
