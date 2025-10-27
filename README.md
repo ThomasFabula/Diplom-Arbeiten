@@ -54,6 +54,13 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: Dortmund
 - Jahr: 1995
 
+## Sport Diplom-Trainer (DOSB)
+- Diplomand: Aziz Acharki
+- Diplomarbeit: Sporthochschule Köln
+- https://www.dshs-koeln.de/
+- Ort: Köln
+- Jahr: 2004
+
 ## Further information
 - https://tfconsult.com/betreute-akademische-arbeiten/
 - https://www.hahn-schickard.de/
