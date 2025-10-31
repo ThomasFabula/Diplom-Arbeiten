@@ -56,8 +56,17 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: Dortmund
 - Jahr: 1995
 
-## Sport Diplom-Trainer (DOSB)
+## Wirtschaft  Diplom-Arbeit
+- Diplomand: Flormira Salas-Marin
+- Titel: Projektmanagement in der Produktentwikclung 
+- Diplomarbeit: TH Esslingen
+- https://www.hs-esslingen.de/
+- Ort: Esslingen
+- Jahr: 2002
+
+- ## Sport Diplom-Trainer (DOSB)
 - Diplomand: Aziz Acharki
+- Titel: Taekwondo Leistungssport
 - Diplomarbeit: Sporthochschule Köln
 - https://www.dshs-koeln.de/
 - Ort: Köln
