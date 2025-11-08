@@ -64,7 +64,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: Esslingen
 - Jahr: 2002
 
-- ## Sport Diplom-Trainer (DOSB)
+## Sport Diplom-Trainer (DOSB)
 - Diplomand: Aziz Acharki
 - Titel: Taekwondo Leistungssport
 - Diplomarbeit: Sporthochschule Köln
