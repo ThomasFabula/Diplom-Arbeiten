@@ -41,7 +41,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Jahr: 1993
 
 ### Numerische Berechnungen eines MEMS-Strömungssensors
-- Diplomand: Stephan Messner
+- Diplomand: Stephan Messner (in cooperation with GMS GmbH, VS-Villingen) 
 - Titel: Finite-Elemente Berechnung der Fluid-Struktur-Wechselwirkung bei einem mikromechanischen Strömungssensor
 - Diplomarbeit: Universität Stuttgart, Institut A für Mechanik & HSG-IMIT
 - https://www.uni-stuttgart.de/
@@ -56,8 +56,8 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Ort: Dortmund
 - Jahr: 1995
 
-## Wirtschaft  Diplom-Arbeit
-- Diplomand: Flormira Salas-Marin
+## Wirtschaft Diplom-Arbeit
+- Diplomand: Flormira Salas-Marin (in cooperation with DaimlerChrysler AG, Stuttgart) 
 - Titel: Projektmanagement in der Produktentwikclung 
 - Diplomarbeit: TH Esslingen
 - https://www.hs-esslingen.de/
