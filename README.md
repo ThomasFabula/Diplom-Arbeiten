@@ -33,7 +33,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Jahr: 1992
 
 ### Thermally driven micromechanical bridge resonator
-- Diplomand: Christian Burrer (in Cooperation with Robert Bosch, Germany) 
+- Diplomand: Christian Burrer (in cooperation with Robert Bosch GmbH, Germany) 
 - Titel: Thermally driven micromechanical bridge resonator 
 - Diplomarbeit: Universität Barcelona
 - https://www.imb-cnm.csic.es/en
