@@ -83,6 +83,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 
 ## Further information
 - https://tfconsult.com/betreute-akademische-arbeiten/
+- https://tfconsult.com/softwareentwicklung-in-verteilten-organisationen/
 - https://www.hahn-schickard.de/
 - https://www.uni-bonn.de/
 
