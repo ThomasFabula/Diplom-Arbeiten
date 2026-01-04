@@ -58,11 +58,20 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 
 ## Wirtschaft Diplom-Arbeit
 - Diplomand: Flormira Salas-Marin (in cooperation with DaimlerChrysler AG, Stuttgart) 
-- Titel: Projektmanagement in der Produktentwikclung 
+- Titel: Projektmanagement in der Produktentwicklung 
 - Diplomarbeit: TH Esslingen
 - https://www.hs-esslingen.de/
 - Ort: Esslingen
 - Jahr: 2002
+
+## Diplom-Arbeit Wirtschaftsinformatik
+- Diplomand: Alexei Galert (in cooperation with Enterra Software GmbH, Eppelheim) 
+- Titel: Software-Entwicklung in einer verteilten Organisation - Probleme und ihre Lösungen in einem verteilten Unternehmen
+- Diplomarbeit: Universität zu Köln
+- https://wiso.uni-koeln.de/
+- Ort: Köln
+- Jahr: 2004
+- https://tfconsult.com/softwareentwicklung-in-verteilten-organisationen/
 
 ## Sport Diplom-Trainer (DOSB)
 - Diplomand: Aziz Acharki
