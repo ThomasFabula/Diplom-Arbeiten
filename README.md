@@ -3,7 +3,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - MEMS: Mikromechanik, Micro-Electro-Mechanical Microsystems (silicon)
 - FEM: Finite Element Modeling (numerical Modeling & Simulation)
 - CFD: Computational Fluid Dynamics (numerische Strömungsberechnungen)
-- Wirtschaft: Projekt-Management, TH Esslingen
+- Wirtschaft: Projekt-Management, Software-Entwicklung, TH Esslingen & Universität zu Köln
 - Sport: Taekwondo Leistungssport, Sport-Hochschule Köln
 
 ## Mikrosystemtechnik (MST) & MEMS
@@ -75,7 +75,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 
 ## Sport Diplom-Trainer (DOSB)
 - Diplomand: Aziz Acharki
-- Titel: Taekwondo Leistungssport
+- Thema: Taekwondo Leistungssport
 - Diplomarbeit: Sporthochschule Köln
 - https://www.dshs-koeln.de/
 - Ort: Köln
