@@ -57,7 +57,7 @@ Betreute Diplom-Arbeiten (supported university diploma theses):
 - Jahr: 1995
 
 ## Wirtschaft Diplom-Arbeit
-- Diplomand: Flormira Salas-Marin (in cooperation with DaimlerChrysler AG, Stuttgart) 
+- Diplomandin: Flormira Salas-Marin (in cooperation with DaimlerChrysler AG, Stuttgart) 
 - Titel: Projektmanagement in der Produktentwicklung 
 - Diplomarbeit: TH Esslingen
 - https://www.hs-esslingen.de/
